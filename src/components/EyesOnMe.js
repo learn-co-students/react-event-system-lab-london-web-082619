@@ -4,7 +4,7 @@ import React from 'react';
 class EyesOnMe extends React.Component {
 
     handleFocus = () => {
-        console.log("Good")
+        console.log("Good!")
     }
    
     handleBlur = () => {
@@ -13,6 +13,7 @@ class EyesOnMe extends React.Component {
     
 
     render() {
+        console.log(this.props)
         return (
             <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Test</button>
 

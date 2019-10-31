@@ -10,6 +10,7 @@ handleKeyUp = () => {
 }
 
     render() {
+        console.log(this.props)
         return (
         
             <input type="password" onKeyUp={this.handleKeyUp}/>
