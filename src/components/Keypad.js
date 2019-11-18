@@ -5,8 +5,9 @@ import React from 'react';
 
 class Keypad extends React.Component {
 
-handleKeyUp = () => {
+handleKeyUp = (event) => {
     console.log("Entering password...")
+    console.log(event.type)
     
 }
 
